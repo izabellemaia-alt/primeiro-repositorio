@@ -10,7 +10,8 @@ function botaoClicado () {
         texto.textContent++;
         curtiu = true;
     } else {
-        texto.textContent--
+        texto.textContent--;
+        curtiu = false;
     }
 }
 
